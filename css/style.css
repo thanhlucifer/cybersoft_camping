@@ -1,0 +1,103 @@
+/* reset css  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  background-color: #f8e1db;
+  padding: 10px 60px;
+}
+
+.header .header_logo {
+  /* thay đổi định dạng thẻ  */
+  display: inline-block;
+}
+
+.header ul {
+  /* thuộc tính thay đổi các dấu trước li  */
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header ul li {
+  display: inline;
+  margin-right: 25px;
+}
+
+.header ul li a {
+  /* khi điều chỉnh màu chữ cho thẻ a, cần gọi selector tới thẻ a để điều chỉnh, thẻ a tự có màu từ trình duyệt nên k nhận giá trị màu từ thẻ cha  */
+  color: black;
+
+  /* điều chỉnh kiểu cho chữ : có các loại điều chỉnh (gạch chân, gạch ngang...) */
+  text-decoration: none;
+}
+
+
+.carousel {
+  background-image: url(../img/BG.png);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.activities {
+  background-color: #faf4f2;
+  text-align: center;
+  padding: 60px 0;
+}
+.activities .acti_content {
+  padding-top: 20px;
+}
+
+.activities .acti_item {
+  float: left;
+  width: calc(100% / 4);
+  padding: 0 20px;
+}
+
+.activities .acti_item_bg {
+  background-color:#fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.activities .acti_item_bg img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+
+.activities .acti_item_bg h3 {
+  margin: 15px 0; 
+}
+
+.activities .acti_item_bg p {
+  margin-top: 11px; 
+  color: #8d8d8d;
+}
+
+
+.activities .acti_item_bg button {
+  margin-top: 11px;
+  text-transform:capitalize;
+  padding: 13px 54px;
+  border: none;
+  border-radius: 18px;
+}
+
+.view {
+  padding: 13px 60px;
+  border-radius: 25px;
+  border: 1px solid #e76f51;
+  color: #e76f51;
+  background: #faf4f2;
+  margin: 30px 0 60px;
+}
