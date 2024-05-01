@@ -9,6 +9,10 @@
   clear: both;
 }
 
+body {
+  background-color: #FAF4F2;
+}
+
 .header {
   background-color: #f8e1db;
   padding: 10px 60px;
@@ -53,8 +57,17 @@
   text-align: center;
   padding: 60px 0;
 }
+
+
+
+
 .activities .acti_content {
+  
   padding-top: 20px;
+}
+
+.activities .acti_title h2 {
+  color: #8D8D8D;
 }
 
 .activities .acti_item {
@@ -68,6 +81,7 @@
   padding: 30px;
   border-radius: 12px;
 }
+
 
 .activities .acti_item_bg img {
   width: 100%;
@@ -91,6 +105,7 @@
   padding: 13px 54px;
   border: none;
   border-radius: 18px;
+  color: #8D8D8D;
 }
 
 .activities .item_img {
@@ -121,13 +136,12 @@
 
 .contact {
   background: #f8e1db;
-  border-radius: 20px;
   margin-bottom: 100px;
 }
 .contact_img, .contact_content {
   float: left;
-  width: 50%;
-  padding: 20px 60px;
+  width: calc(100% / 2);
+  padding: 20px;
 }
 
 .contact_img {
@@ -161,3 +175,71 @@
   font-size: 25px;
   margin-right: 10px;
 }
+
+
+/* footer  */
+
+.footer {
+  background-color: #f8e1db;
+  padding: 10px 60px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  height: auto;
+}
+
+.footer .footer_content {
+  margin-top: 60px;
+  padding: 0 20px 0 20px;
+}
+
+.footer .footer_content .footer_left {
+  float: left;
+  width: 40%;
+  padding-right: 40px;
+  line-height: 30px;
+  color: black;
+}
+
+.footer .footer_content .footer_left h3 {
+  margin-bottom: 20px;
+}
+
+.footer .footer_content .footer_right {
+  float: left;
+  width: 60%;
+  text-align: left;
+}
+
+
+.footer .footer_content .footer_right h3 {
+  margin-bottom: 30px;
+}
+
+.footer .footer_content .footer_right .footer_link {
+  float: left;
+  width: calc(60% / 3);
+  margin-right:90px ;
+}
+
+.footer .footer_content .footer_right .footer_link ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.footer .footer_content .footer_right .footer_link ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform:capitalize;
+}
+
+.footer .footer_cp {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .footer_cp span {
+  font-size: 16px;
+  color: black;
+}
+
